@@ -4,7 +4,7 @@ metadata:
   name: rate-limiter-config
   namespace: fintech-staging
 data:
-  maxRequestsPerMinute: "100"          # safe baseline value
+  maxRequestsPerMinute: "10"          # safe baseline value
   burstLimit: "150"
   windowSeconds: "60"
   enabled: "true"
